@@ -56,7 +56,7 @@ class get_FCM_data_view(APIView):
         list_items.sort(reverse=True) #sorting the values to get the latest value first
         print(list_items)
 
-        # empty list varibales for apped
+        # empty list varibales for append
         work = [] 
         progress = []
 
